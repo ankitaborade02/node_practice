@@ -1,6 +1,7 @@
 const {MongoClient} = require('mongodb') 
 
 // URL of mongodb
+
 const url = "mongodb+srv://ankita:ankita02@cluster0.rl4mv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const client = new MongoClient(url)
